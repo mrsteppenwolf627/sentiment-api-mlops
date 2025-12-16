@@ -1,8 +1,9 @@
-﻿fastapi==0.104.1
+﻿--extra-index-url https://download.pytorch.org/whl/cpu
+fastapi==0.104.1
 uvicorn[standard]==0.24.0
 transformers==4.35.2
 pydantic==2.5.0
 structlog==23.2.0
 prometheus-client==0.19.0
 pydantic-settings==2.1.0
-torch
+torch==2.1.0+cpu
